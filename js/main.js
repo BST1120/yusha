@@ -458,7 +458,7 @@
             escapeHtml(section.titleJa) +
             "</p>"
           : "") +
-        '<p class="text-muted section-hint epilogue-section-hint">各項目をタップするとエピローグへ。楽曲の連関・編集意図はここに記す。</p>' +
+        '<p class="text-muted section-hint epilogue-section-hint">楽曲の連関・編集意図はここに記す。</p>' +
         "</header>" +
         '<ol class="timeline timeline-interactive epilogue-entries">' +
         entriesHtml +
