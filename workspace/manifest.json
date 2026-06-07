@@ -1,0 +1,119 @@
+{
+  "version": 2,
+  "description": "Workspace manifest. Only epilogue items sync to the public site.",
+  "items": [
+    {
+      "id": "01-inner-image",
+      "kind": "track",
+      "publish": false,
+      "number": "01",
+      "slug": "inner-image",
+      "title": "inner image (intro)",
+      "workspaceDir": "workspace/tracks/01-inner-image",
+      "note": "Draft only — album narrative goes in epilogue (esp. ep-sound)"
+    },
+    {
+      "id": "02-2f",
+      "kind": "track",
+      "publish": false,
+      "number": "02",
+      "slug": "2f",
+      "title": "2F",
+      "workspaceDir": "workspace/tracks/02-2f"
+    },
+    {
+      "id": "03-sappo",
+      "kind": "track",
+      "publish": false,
+      "number": "03",
+      "slug": "sappo",
+      "title": "sappo",
+      "workspaceDir": "workspace/tracks/03-sappo"
+    },
+    {
+      "id": "04-yusha",
+      "kind": "track",
+      "publish": false,
+      "number": "04",
+      "slug": "yusha",
+      "title": "遊者",
+      "workspaceDir": "workspace/tracks/04-yusha"
+    },
+    {
+      "id": "05-rooftop",
+      "kind": "track",
+      "publish": false,
+      "number": "05",
+      "slug": "rooftop",
+      "title": "rooftop (outro)",
+      "workspaceDir": "workspace/tracks/05-rooftop"
+    },
+    {
+      "id": "06-orenoheya",
+      "kind": "track",
+      "publish": false,
+      "number": "06",
+      "slug": "orenoheya",
+      "title": "俺の部屋 (bonus track)",
+      "workspaceDir": "workspace/tracks/06-orenoheya"
+    },
+    {
+      "id": "07-tower",
+      "kind": "track",
+      "publish": false,
+      "number": "07",
+      "slug": "tower",
+      "title": "tower (bonus track)",
+      "workspaceDir": "workspace/tracks/07-tower"
+    },
+    {
+      "id": "08-liquid",
+      "kind": "track",
+      "publish": false,
+      "number": "08",
+      "slug": "liquid",
+      "title": "Liquid 2026 remaster ver.",
+      "workspaceDir": "workspace/tracks/08-liquid"
+    },
+    {
+      "id": "ep-sound",
+      "kind": "epilogue",
+      "publish": true,
+      "number": "01",
+      "slug": "ep-sound",
+      "title": "音源制作",
+      "workspaceDir": "workspace/epilogue/ep-sound",
+      "publishPath": "assets/text/epilogue/01-sound-production.txt"
+    },
+    {
+      "id": "ep-physical",
+      "kind": "epilogue",
+      "publish": true,
+      "number": "02",
+      "slug": "ep-physical",
+      "title": "フィジカル製作",
+      "workspaceDir": "workspace/epilogue/ep-physical",
+      "publishPath": "assets/text/epilogue/02-physical-production.txt"
+    },
+    {
+      "id": "ep-ideation",
+      "kind": "epilogue",
+      "publish": true,
+      "number": "03",
+      "slug": "ep-ideation",
+      "title": "発想",
+      "workspaceDir": "workspace/epilogue/ep-ideation",
+      "publishPath": "assets/text/epilogue/03-ideation.txt"
+    },
+    {
+      "id": "ep-shipping",
+      "kind": "epilogue",
+      "publish": true,
+      "number": "04",
+      "slug": "ep-shipping",
+      "title": "発送",
+      "workspaceDir": "workspace/epilogue/ep-shipping",
+      "publishPath": "assets/text/epilogue/04-shipping.txt"
+    }
+  ]
+}

@@ -83,27 +83,7 @@
       };
     }
 
-    var track = findTrackBySlug(data, slug);
-    if (!track) return null;
-
-    return {
-      isEpilogue: false,
-      number: track.number,
-      slug: track.slug,
-      title: track.title,
-      subtitle: "",
-      produced: track.produced,
-      sectionLabel: "Production Notes",
-      textPaths: textPathCandidates(track, "production"),
-      imagePaths: productionImageCandidates(track),
-      track: track,
-    };
-  }
-
-  function productionImageCandidates(track) {
-    var base =
-      "assets/images/production/" + track.number + "-" + track.slug;
-    return [base + ".jpg", base + ".png", base + ".webp"];
+    return null;
   }
 
   function loadImageFromCandidates(paths, figure, img, altText) {
@@ -420,9 +400,7 @@
       .map(function (track) {
         return (
           '<li class="timeline-item">' +
-          '<a href="' +
-          archiveTrackPageUrl(track.slug) +
-          '" class="timeline-index-item">' +
+          '<div class="timeline-static-item">' +
           '<span class="num">' +
           track.number +
           "</span>" +
@@ -434,8 +412,7 @@
           track.produced +
           "</span>" +
           "</span>" +
-          '<span class="chevron" aria-hidden="true">›</span>' +
-          "</a></li>"
+          "</div></li>"
         );
       })
       .join("");
@@ -481,6 +458,7 @@
             escapeHtml(section.titleJa) +
             "</p>"
           : "") +
+        '<p class="text-muted section-hint epilogue-section-hint">各項目をタップするとエピローグへ。楽曲の連関・編集意図はここに記す。</p>' +
         "</header>" +
         '<ol class="timeline timeline-interactive epilogue-entries">' +
         entriesHtml +
@@ -497,7 +475,7 @@
     if (!ctx) {
       if (page) {
         page.innerHTML =
-          '<p class="loading">制作記録が見つかりません。<a href="archive.html">Archive へ戻る</a></p>';
+          '<p class="loading">エピローグが見つかりません。<a href="archive.html">Archive へ戻る</a></p>';
       }
       return;
     }

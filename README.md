@@ -66,12 +66,19 @@ python -m http.server 8080
 
 ## GitHub Pages で公開する
 
-**公開URL（確定後）:** https://BST1120.github.io/yusha-site/
+**公開URL:** https://BST1120.github.io/yusha/
 
-**手順書:** [`docs/github-pages-guide.md`](docs/github-pages-guide.md)  
-**Cursor 連携:** `site.config.json` + `scripts/publish.ps1`（Somosomo 全体の設定は `secretary/memory/github-pages-profile.md`）
+**運用マニュアル（非エンジニア向け）:** [`docs/運用マニュアル.md`](docs/運用マニュアル.md)  
+**公開手順:** [`docs/github-pages-guide.md`](docs/github-pages-guide.md)  
+**Cursor 連携:** `site.config.json` + `scripts/publish.ps1`
 
-## 登録済みアセット
+## 制作記録の執筆（Cursor 壁打ち用）
+
+**ワークスペース:** [`workspace/README.md`](workspace/README.md)
+
+- **Web 公開:** エピローグ4項目のみ（`workspace/epilogue/` → sync）
+- **年表:** 曲名・年月のみ（個別ページなし）
+- **執筆ラフ:** `workspace/tracks/`（非公開。素材は ep-sound 等へ統合）
 
 | ファイル | 用途 |
 |----------|------|

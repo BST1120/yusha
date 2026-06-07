@@ -387,6 +387,7 @@ a {
 }
 
 .timeline-index-item,
+.timeline-static-item,
 .timeline-epilogue-link {
   width: 100%;
   display: grid;
@@ -405,6 +406,15 @@ a {
 .timeline-index-item:hover,
 .timeline-epilogue-link:hover {
   opacity: 0.7;
+}
+
+.timeline-static-item {
+  cursor: default;
+}
+
+.epilogue-section-hint {
+  margin: 8px 0 0;
+  font-size: 0.85rem;
 }
 
 .timeline-index-item .num,

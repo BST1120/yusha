@@ -1,0 +1,26 @@
+inner image (intro)
+
+2026/05 — Suno から来たループを、曲げずに Cubase に載せたイントロ。
+
+プロンプトは千文字以内。文面は ChatGPT に作ってもらい、英訳してから Suno に入れる。BPM やテイストを揃えることもある。それでも出目は毎回違う。サイコロを転がす感覚に近い。
+
+返ってきたサンプルは、ピッチも形もいじらない。理想の形に削ぎ落とすより、「この音を使い切る」方に倒した。Cubase で Chopping。Groove Agent で切り出して、自分のグリッドに載せ替えた。展開やループを足すときも、新しいファイルは探さない。同じ素材のリズムを変える、それだけ。
+
+Suno は、レコードから取る音や、自分で弾いた音と同じ棚にある。無限にそれっぽい答えが返ってくる。使うのは、その中の一回。選ぶのはこちら側。
+
+アルバムには intro と outro の枠が欲しかった。inner image は入口側。イントロの輪郭を考えすぎた週があって、逆に「出たとこ」に寄せた。曲名 inner image も、後からついた。曲が先、説明は後。
+
+---
+
+【モジュール適用】
+Form: process-log
+Stance: yusha-archive + jjj-studio（工程）+ popeye-soft（書き出し1文）
+Opening: cold-open-fact
+Context: workflow, gear, constraint, ai-policy（短）, naming
+
+【第2稿との差】
+- 【見出し】削除
+- 「考えている」「だろうか」削除
+- 哲学段落 → 事実・手順に圧縮
+
+※ 公開用に採用する場合は output/latest.txt にコピー
