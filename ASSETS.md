@@ -29,7 +29,7 @@ Cursor 実装時は、ここに置いたファイル名を HTML/CSS から参照
 | `yusha_cover_front.png` | CDジャケット表 | ✅ 登録済 |
 | `yusha_cover_back.png` | CDジャケット裏 | ✅ 登録済 |
 | `creative_image_seisakufuukei.png` | 制作机・作業風景 | ✅ 登録済 |
-| `yusha_sticker_design.png` | 封入ステッカーデザイン | ✅ 登録済 |
+| `creative_image_seisakufuukei.png` | 制作風景（写真） | ✅ 登録済 |
 | `booklet-front-back.jpg` | 封入紙（表裏） | 未登録 |
 | `booklet-inside.jpg` | 封入紙（内側） | 未登録 |
 | `bg-texture.jpg` | 紙・ノイズ背景テクスチャ | 未登録（CSSで代替中） |

@@ -85,7 +85,7 @@ python -m http.server 8080
 | `assets/images/yusha_cover_front.png` | ジャケット表 |
 | `assets/images/yusha_cover_back.png` | ジャケット裏 |
 | `assets/images/creative_image_seisakufuukei.png` | 制作風景 |
-| `assets/images/yusha_sticker_design.png` | 封入ステッカー |
+| `assets/images/creative_image_seisakufuukei.png` | 制作風景 |
 | `assets/text/lyrics/*.txt` | 全曲歌詞（編集で反映） |
 | `assets/text/production/*.txt` | 曲ごと制作記録（編集で反映） |
 | `assets/text/remaster-note.txt` | リマスターノート |

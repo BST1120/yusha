@@ -5,7 +5,6 @@
     coverFront: "assets/images/yusha_cover_front.png",
     coverBack: "assets/images/yusha_cover_back.png",
     production: "assets/images/creative_image_seisakufuukei.png",
-    sticker: "assets/images/yusha_sticker_design.png",
     bgVideo: "assets/video/yusha-loop.mp4",
   };
 
@@ -238,7 +237,6 @@
       "img-cover-front": { src: ASSETS.coverFront, alt: "ジャケット表" },
       "img-cover-back": { src: ASSETS.coverBack, alt: "ジャケット裏" },
       "img-production": { src: ASSETS.production, alt: "制作風景" },
-      "img-sticker": { src: ASSETS.sticker, alt: "封入ステッカーデザイン" },
     };
 
     Object.keys(map).forEach(function (id) {
