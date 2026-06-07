@@ -1,0 +1,145 @@
+{
+  "album": {
+    "title": "遊者",
+    "titleEn": "YUSHA",
+    "subtitle": "しかし、遊ぶとは",
+    "edition": "Physical Edition Web Archive"
+  },
+  "remasterNote": {
+    "short": "この作品は、2026年に制作した新曲と、\n過去に制作した楽曲を再構成・再ミックス・リマスターした音源で構成されています。\n\n過去の断片を、今の解釈で組み直すこと。\n広い額縁による再構築。",
+    "extended": "過去に作った音源は、その時点での衝動や粗さを含んでいる。\nそれらを消すのではなく、現在の耳で配置し直す。\nこのアルバムは、過去をなかったことにするためのリマスターではなく、\n過去の断片を、今の解釈で組み直すための作品である。"
+  },
+  "tracks": [
+    {
+      "number": "01",
+      "slug": "inner-image",
+      "title": "inner image (intro)",
+      "produced": "2026/05",
+      "type": "intro",
+      "hasLyrics": false,
+      "lyricsPlaceholder": "instrumental / intro",
+      "previewAudio": "assets/audio/01-inner-image-preview.mp3",
+      "productionNotes": ""
+    },
+    {
+      "number": "02",
+      "slug": "2f",
+      "title": "2F",
+      "produced": "2024/02",
+      "type": "track",
+      "hasLyrics": true,
+      "lyricsPlaceholder": "（歌詞は後から差し替え）",
+      "previewAudio": "assets/audio/02-2f-preview.mp3",
+      "productionNotes": ""
+    },
+    {
+      "number": "03",
+      "slug": "sappo",
+      "title": "sappo",
+      "produced": "2024/03",
+      "type": "track",
+      "hasLyrics": true,
+      "lyricsPlaceholder": "（歌詞は後から差し替え）",
+      "previewAudio": "assets/audio/03-sappo-preview.mp3",
+      "productionNotes": ""
+    },
+    {
+      "number": "04",
+      "slug": "yusha",
+      "title": "遊者",
+      "produced": "2025/11",
+      "type": "track",
+      "hasLyrics": true,
+      "lyricsPlaceholder": "（歌詞は後から差し替え）",
+      "previewAudio": "assets/audio/04-yusha-preview.mp3",
+      "productionNotes": ""
+    },
+    {
+      "number": "05",
+      "slug": "rooftop",
+      "title": "rooftop (outro)",
+      "produced": "2026/04",
+      "type": "outro",
+      "hasLyrics": false,
+      "lyricsPlaceholder": "instrumental / outro",
+      "previewAudio": "assets/audio/05-rooftop-preview.mp3",
+      "productionNotes": ""
+    },
+    {
+      "number": "06",
+      "slug": "orenoheya",
+      "title": "俺の部屋 (bonus track)",
+      "produced": "2023/10",
+      "type": "bonus",
+      "hasLyrics": true,
+      "lyricsPlaceholder": "（歌詞は後から差し替え）",
+      "previewAudio": "assets/audio/06-orenohēya-preview.mp3",
+      "productionNotes": ""
+    },
+    {
+      "number": "07",
+      "slug": "tower",
+      "title": "tower (bonus track)",
+      "produced": "2023/03",
+      "type": "bonus",
+      "hasLyrics": true,
+      "lyricsPlaceholder": "（歌詞は後から差し替え）",
+      "previewAudio": "assets/audio/07-tower-preview.mp3",
+      "productionNotes": ""
+    },
+    {
+      "number": "08",
+      "slug": "liquid",
+      "title": "Liquid 2026 remaster ver.",
+      "produced": "2021/12",
+      "type": "track",
+      "hasLyrics": true,
+      "lyricsPlaceholder": "（歌詞は後から差し替え）",
+      "previewAudio": "assets/audio/08-liquid-preview.mp3",
+      "productionNotes": ""
+    }
+  ],
+  "epilogueSection": {
+    "label": "Epilogue",
+    "titleEn": "Having Finished the Album",
+    "titleJa": "アルバム制作を終えて",
+    "entries": [
+      {
+        "number": "01",
+        "slug": "ep-sound",
+        "titleEn": "Sound Production",
+        "titleJa": "音源制作",
+        "textFile": "assets/text/epilogue/01-sound-production.txt"
+      },
+      {
+        "number": "02",
+        "slug": "ep-physical",
+        "titleEn": "Physical Production",
+        "titleJa": "フィジカル製作",
+        "textFile": "assets/text/epilogue/02-physical-production.txt"
+      },
+      {
+        "number": "03",
+        "slug": "ep-ideation",
+        "titleEn": "Ideation",
+        "titleJa": "発想",
+        "textFile": "assets/text/epilogue/03-ideation.txt"
+      },
+      {
+        "number": "04",
+        "slug": "ep-shipping",
+        "titleEn": "Shipping",
+        "titleJa": "発送",
+        "textFile": "assets/text/epilogue/04-shipping.txt"
+      }
+    ]
+  },
+  "download": {
+    "items": [
+      { "id": "wav", "label": "WAV音源データ", "description": "全曲のWAV音源" },
+      { "id": "lyrics", "label": "歌詞データ", "description": "全曲の歌詞テキスト" },
+      { "id": "jacket", "label": "ジャケット画像", "description": "表・裏ジャケット" },
+      { "id": "youtube", "label": "楽曲再生用", "description": "Youtube page" }
+    ]
+  }
+}

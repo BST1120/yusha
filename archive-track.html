@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="アルバム『遊者』 — 曲別制作記録。">
+  <title>Archive — 遊者</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="track-page-body">
+  <header class="site-header" id="site-header"></header>
+
+  <main class="container track-page" id="track-page">
+    <p class="track-back">
+      <a href="archive.html">← Archive</a>
+    </p>
+
+    <header class="track-hero" id="track-hero">
+      <p class="meta-label track-num" id="track-num">—</p>
+      <h1 class="track-title" id="track-title">読み込み中…</h1>
+      <p class="track-subtitle" id="track-subtitle" hidden></p>
+      <p class="track-produced" id="track-produced"></p>
+    </header>
+
+    <div class="track-reveal" id="track-reveal" aria-hidden="true">
+      <figure class="track-visual" id="track-visual" hidden>
+        <img id="track-image" src="" alt="">
+      </figure>
+
+      <section class="track-lyrics-block">
+        <p class="lyrics-section-label" id="content-label">Production Notes</p>
+        <div class="track-lyrics-text" id="track-body">
+          <p class="loading">読み込み中…</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

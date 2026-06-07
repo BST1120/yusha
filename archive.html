@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="アルバム『遊者』の制作年表、リマスターノート、封入資料。">
+  <title>Archive — 遊者</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+
+  <main class="container">
+    <header class="page-hero">
+      <p class="meta-label">Archive</p>
+      <h1>制作記録</h1>
+      <p class="subtitle text-muted">年表・リマスターノート・封入資料</p>
+    </header>
+
+    <section class="section">
+      <h2 class="section-title">Remaster Note</h2>
+      <div class="section-note" id="remaster-note">読み込み中…</div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Production Timeline</h2>
+      <p class="text-muted section-hint">曲名をタップすると制作記録ページへ</p>
+      <ol class="timeline timeline-interactive" id="timeline">
+        <li class="loading">読み込み中…</li>
+      </ol>
+      <div id="timeline-epilogue" class="timeline-epilogue-wrap"></div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Physical Materials</h2>
+      <p class="text-muted" style="font-size:0.9rem; margin-bottom:24px;">
+        アルバムに封入されたジャケット、ステッカー、制作風景の記録。
+      </p>
+
+      <div class="asset-grid asset-grid--covers">
+        <figure class="asset-item">
+          <img id="img-cover-front" src="assets/images/yusha_cover_front.png" alt="ジャケット表" width="600" height="600">
+          <figcaption>COVER — FRONT</figcaption>
+        </figure>
+        <figure class="asset-item">
+          <img id="img-cover-back" src="assets/images/yusha_cover_back.png" alt="ジャケット裏" width="600" height="600">
+          <figcaption>COVER — BACK</figcaption>
+        </figure>
+      </div>
+
+      <div class="asset-grid" style="margin-top:24px;">
+        <figure class="asset-item asset-item--wide">
+          <img id="img-production" src="assets/images/creative_image_seisakufuukei.png" alt="制作風景" width="1200" height="750">
+          <figcaption>PRODUCTION — SESSION</figcaption>
+        </figure>
+        <figure class="asset-item">
+          <img id="img-sticker" src="assets/images/yusha_sticker_design.png" alt="封入ステッカーデザイン" width="600" height="600">
+          <figcaption>INSERT — STICKER DESIGN</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
