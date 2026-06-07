@@ -570,7 +570,42 @@
 
     var config = window.YUSHA_CONFIG || {};
     var items = config.downloads || [];
+    var icons = config.icons || {};
     var readyCount = 0;
+
+    function downloadProviderIcon(item) {
+      var iconSrc = "";
+      var iconAlt = "";
+
+      if (item.id === "youtube" && icons.youtube) {
+        iconSrc = icons.youtube;
+        iconAlt = "YouTube";
+      } else if (
+        (item.id === "wav" || item.id === "lyrics" || item.id === "jacket") &&
+        icons.dropbox
+      ) {
+        iconSrc = icons.dropbox;
+        iconAlt = "Dropbox";
+      }
+
+      if (!iconSrc) {
+        return (
+          '<span class="download-link-arrow" aria-hidden="true">' +
+          (item.id === "youtube" ? "▶" : "↓") +
+          "</span>"
+        );
+      }
+
+      return (
+        '<span class="download-link-icon">' +
+        '<img src="' +
+        escapeHtml(iconSrc) +
+        '" alt="' +
+        escapeHtml(iconAlt) +
+        '" width="32" height="32">' +
+        "</span>"
+      );
+    }
 
     if (items.length === 0) {
       container.innerHTML =
@@ -592,15 +627,6 @@
           ? '<p class="download-caution">' + escapeHtml(item.caution) + "</p>"
           : "";
 
-        var logoHtml =
-          item.id === "youtube" && item.logo
-            ? '<div class="download-youtube-logo">' +
-              '<img src="' +
-              escapeHtml(item.logo) +
-              '" alt="Youtube — 遊者">' +
-              "</div>"
-            : "";
-
         var itemClass =
           "download-link-item" + (item.id === "youtube" ? " download-link-item--youtube" : "");
 
@@ -609,7 +635,6 @@
             '<li class="' +
             itemClass +
             '">' +
-            logoHtml +
             '<a class="download-link" href="' +
             escapeHtml(url) +
             '" target="_blank" rel="noopener noreferrer">' +
@@ -619,9 +644,7 @@
             '<span class="download-link-desc">' +
             escapeHtml(item.description || "") +
             "</span>" +
-            '<span class="download-link-arrow" aria-hidden="true">' +
-            (item.id === "youtube" ? "▶" : "↓") +
-            "</span>" +
+            downloadProviderIcon(item) +
             "</a>" +
             cautionHtml +
             "</li>"
@@ -632,7 +655,6 @@
           '<li class="' +
           itemClass +
           ' is-unavailable">' +
-          logoHtml +
           '<span class="download-link-body">' +
           '<span class="download-link-label">' +
           escapeHtml(item.label) +
@@ -641,6 +663,7 @@
           escapeHtml(item.description || "") +
           " — 準備中" +
           "</span>" +
+          downloadProviderIcon(item) +
           "</span>" +
           cautionHtml +
           "</li>"

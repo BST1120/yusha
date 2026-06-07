@@ -4,6 +4,10 @@
  */
 window.YUSHA_CONFIG = {
   siteName: "遊者",
+  icons: {
+    dropbox: "assets/images/dropbox_icon.png",
+    youtube: "assets/images/youtube_icon.png",
+  },
   downloads: [
     {
       id: "wav",
@@ -28,7 +32,6 @@ window.YUSHA_CONFIG = {
       label: "楽曲再生用",
       description: "Youtube page",
       url: "",
-      logo: "assets/images/yusha_youtube_logo.png",
       caution:
         "URLを共有すると誰でも聴けます。\n恋人以外に共有しないでください。",
     },
