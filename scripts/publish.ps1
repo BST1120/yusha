@@ -1,6 +1,6 @@
 # GitHub Pages 公開用（yusha-site）
 # 使い方: .\scripts\publish.ps1 -Message "update lyrics"
-# 初回のみ: GitHub で BST1120/yusha-site リポジトリを作成し、Pages を main / (root) に設定
+# 初回のみ: GitHub で BST1120/yusha リポジトリを作成し、Pages を main / (root) に設定
 
 param(
     [string]$Message = "update site"
@@ -37,7 +37,7 @@ if (-not $status) {
     Write-Host "変更なし。push のみ実行します。"
 } else {
     $gitName = if ($config.gitUserName) { $config.gitUserName } else { $config.githubUser }
-    $gitEmail = if ($config.gitUserEmail) { $config.gitUserEmail } else { "$($config.githubUser)@users.noreply.github.com" }
+    $gitEmail = if ($config.gitUserEmail) { $config.gitUserEmail } else { ($config.githubUser + '@users.noreply.github.com') }
     git -c "user.name=$gitName" -c "user.email=$gitEmail" commit -m $Message
 }
 
